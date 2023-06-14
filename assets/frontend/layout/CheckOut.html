@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../Css/CheckOut.css" />
+  <title>Shop</title>
+</head>
+
+<body>
+  <main class="main">
+    <div class="checkout_info">
+      <div class="logo">
+        <img src="../Image/logo.webp" width="auto" height="70px " alt="" srcset="" />
+      </div>
+      <div class="check_out_flex">
+        <div class="checkout_info_left">
+          <div class="left_title">
+            <h1>Thông tin nhận hàng</h1>
+            <a href="">
+              <i class="fas fa-users"></i>
+              <span>Đăng nhập</span>
+            </a>
+          </div>
+          <div class="left_info_data">
+            <div class="form_field">
+              <input class="form_input" type="text" id="name" placeholder=" " />
+              <label class="form_label" for="name">Họ và tên</label>
+            </div>
+            <div class="form_field">
+              <input class="form_input" type="text" id="email" placeholder=" " />
+              <label class="form_label" for="email">Email</label>
+            </div>
+            <div class="form_field">
+              <input class="form_input" type="text" id="phone" placeholder=" " />
+              <label class="form_label" for="phone">Số điện thoại</label>
+            </div>
+            <div class="form_field">
+              <input class="form_input" type="text" id="address" placeholder=" " />
+              <label class="form_label" for="address">Địa chỉ</label>
+            </div>
+            <div class="form_field">
+              <input class="form_input" type="text" id="email" placeholder=" " />
+              <label class="form_label" for="name">Email</label>
+            </div>
+            <div class="form_field">
+              <textarea class="form_input" name="" id="note" cols="30" rows="10" placeholder=" "></textarea>
+              <label class="form_label" for="note">Ghi chú</label>
+            </div>
+            <div class="selec">
+              <select>
+                <option value="">aa</option>
+                <option value="">aa</option>
+                <option value="">aa</option>
+                <option value="">aa</option>
+                <option value="">aa</option>
+              </select>
+            </div>
+            <div class="selec">
+              <select>
+                <option value="">aa</option>
+                <option value="">aa</option>
+                <option value="">aa</option>
+                <option value="">aa</option>
+                <option value="">aa</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="checkout_info_right">
+          <h1>Vận chuyển</h1>
+          <div class="vanchuyen_info">
+            <span>Vui lòng nhập thông tin giao hàng</span>
+          </div>
+          <div class="ThanhToan">
+            <h1>Thanh toán</h1>
+            <div class="Pay_select">
+              <input type="radio" id="radio_label" />
+              <label for="radio_label">
+                <span>Thanh toán khi giao hàng (COD)</span>
+                <i class="fas fa-money-bill-alt"></i>
+                <p>Bạn chỉ phải thanh toán khi nhận được hàng</p>
+              </label>
+
+              <!-- <div class="hienthi">
+                    
+                </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="checkout_order" style="width: 40%">
+      <h1>Đơn hàng (<span>1 sản phẩm</span>)</h1>
+      <table style="width: 100%">
+        <tr>
+          <td style="width: 20%">
+            <img src="../Image/adidas.webp" height="100px" alt="" />
+          </td>
+          <td style="width: 60%">
+            <span class="name_shose">
+              New Balance Niko x 327 'Grey Blue'
+            </span>
+            <span class="size_shose"> 39 </span>
+          </td>
+          <td style="width: 20%">
+            <span class="price_shose"> 1.360.000 <span>đ</span></span>
+          </td>
+        </tr>
+      </table>
+      <div class="sale">
+        <div class="form_field">
+          <input class="form_input" type="text" id="sale" placeholder=" " />
+          <label class="form_label" for="sale">Nhập mã giảm giá</label>
+        </div>
+        <button class="btn_submit_sale" type="button">Áp dụng</button>
+      </div>
+      <table class="TamTinh" style="width: 100%">
+        <tr style="width: 50%; height: 55px">
+          <td style="text-align: left">Tạm tính</td>
+          <td style="text-align: right">1.360.000 <span style="text-decoration: underline;">đ</span></td>
+        </tr>
+        <tr style="width: 50%; height: 25px">
+          <td style="text-align: left">Phí vận chuyển</td>
+          <td style="text-align: right">-----</td>
+        </tr>
+      </table>
+      <div class="total">
+        <span class="total_left"> Tổng cộng </span>
+        <span class="total_right"> 1.360.000 <span style="text-decoration: underline;">đ</span> </span>
+      </div>
+      <div class="btn_submit_total">
+        <button>
+          <span>Đặt hàng</span>
+        </button>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

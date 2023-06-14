@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../Css/index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>SHOP</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo_header">
+        <a href="./index.html">
+          <img height="50px" width="auto" src="../Image/Logo_shop.png" alt="" />
+        </a>
+      </div>
+      <div class="header_search">
+        <input
+          class="ip_search"
+          type="text"
+          name="ip_search"
+          id="ip_search"
+          placeholder="Tìm kiếm..."
+        />
+        <button type="button" class="btn_search">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+      <div class="header_user">
+        <div class="header_accout">
+          <a href="#">
+            <i class="fas fa-user"></i>
+            <span>Tài khoản</span>
+            <div class="account">
+              <a href="./Login.html">
+                <span>Đăng nhập</span>
+              </a>
+              <a href="./Register.html">
+                <span>Đăng ký</span>
+              </a>
+            </div>
+          </a>
+        </div>
+        <div class="header_cart">
+          <a href="Cart.html">
+            <div class="cart_icon">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="cart_title"><b>Giỏ hàng</b> <span>(0)</span></div>
+          </a>
+          <div class="cart_info">
+            <div class="Cart_product_overflow">
+              <div class="Cart_product_flex">
+                <div class="cart_product_img">
+                  <a href="#">
+                    <img src="../Image/Nike.jpg" height="100px" alt="" />
+                  </a>
+                </div>
+                <div class="cart_product_info">
+                  <a href="#">
+                    <span>AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</span>
+                  </a>
+                  <span>2.240.000 đ</span>
+                  <div class="number_product">
+                    <button class="up">+</button>
+                    <button class="down">-</button>
+                    <input type="text" value="1" />
+                  </div>
+                </div>
+
+                <div class="cart_product_delete">
+                  <a href="#">
+                    <i class="fas fa-trash-alt"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="Cart_product_flex">
+                <div class="cart_product_img">
+                  <a href="#">
+                    <img src="../Image/Nike.jpg" height="100px" alt="" />
+                  </a>
+                </div>
+                <div class="cart_product_info">
+                  <a href="#"
+                    ><span>AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</span></a
+                  >
+                  <span>2.240.000 đ</span>
+                  <div class="number_product">
+                    <button class="up">+</button>
+                    <button class="down">-</button>
+                    <input type="text" value="1" />
+                  </div>
+                </div>
+                <div class="cart_product_delete">
+                  <a href="#">
+                    <i class="fas fa-trash-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart_product_total">
+              <span class="left">Tổng cộng</span>
+              <span class="right">2.240.000đ</span>
+            </div>
+            <div class="btn_submit_cart">
+              <a href="./Cart.html"
+                ><button class="btn_submit_cart_1">
+                  <span>Giỏ hàng</span>
+                </button></a
+              >
+              <button class="btn_submit_cart_2"><span>Thanh toán</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <ul class="menu_product">
+        <li class="sub_menu_cha">
+          <a href="./category.html">ALL</a>
+          <ul class="sub_menu">
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+          </ul>
+        </li>
+        <li class="sub_menu_cha">
+          <a href="./category.html">sale 50%</a>
+          <ul class="sub_menu">
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+          </ul>
+        </li>
+
+        <li class="sub_menu_cha">
+          <a href="./category.html">nike</a>
+          <ul class="sub_menu">
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+          </ul>
+        </li>
+        <li class="sub_menu_cha">
+          <a href="./category.html">adidas</a>
+          <ul class="sub_menu">
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+          </ul>
+        </li>
+        <li class="sub_menu_cha">
+          <a href="./category.html">vans</a>
+          <ul class="sub_menu">
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+          </ul>
+        </li>
+        <li class="sub_menu_cha">
+          <a href="./category.html">converse</a>
+          <ul class="sub_menu">
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+          </ul>
+        </li>
+        <li class="sub_menu_cha">
+          <a href="./category.html">Hãng khác</a>
+          <ul class="sub_menu">
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+          </ul>
+        </li>
+        <li class="sub_menu_cha">
+          <a href="./category.html">collab</a>
+          <ul class="sub_menu">
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+          </ul>
+        </li>
+        <li class="sub_menu_cha">
+          <a href="./category.html">fashion</a>
+          <ul class="sub_menu">
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+          </ul>
+        </li>
+        <li class="sub_menu_cha">
+          <a href="./category.html">phụ kiện</a>
+          <ul class="sub_menu">
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+          </ul>
+        </li>
+        <li class="sub_menu_cha">
+          <a href="./category.html">Nhận thông báo sale</a>
+          <ul class="sub_menu">
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+            <li><a href="">NIKE</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="single-item">
+      <div class="img1">
+        <img src="../Image/Khuyến mãi.webp" width="100%" alt="" />
+      </div>
+      <div class="img1">
+        <img src="../Image/Logo_shop.png" width="100%" alt="" />
+      </div>
+      <div class="img1">
+        <img
+          src="../Image/banner-be-trai_d4d5c86d3b7845e5876752376099a6af_master - Copy.jpg"
+          width="100%"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <main class="main">
+      <div class="main_title">
+        <h2>
+          <a href="#">Sản phẩm nổi bật</a>
+        </h2>
+      </div>
+
+      <div class="main_product">
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+      </div>
+
+      <div class="main_title">
+        <h2>
+          <a href="#">Sản phẩm sale</a>
+        </h2>
+      </div>
+
+      <div class="main_product">
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+        <div class="product">
+          <div class="sale">
+            <span>-50%</span>
+          </div>
+          <a href="ProductDetail.html">
+            <img class="product_img_fisrt" src="../Image/Nike.jpg" alt="" />
+            <img class="product_img_last" src="../Image/download.webp" alt="" />
+            <p class="product_name">AIR JORDAN 1 RETRO HIGH OG 'BRED TOE'</p>
+          </a>
+          <div class="product_price_flex">
+            <div class="product_price">
+              <span
+                >2.000.000
+                <span>đ</span>
+              </span>
+            </div>
+            <div class="product_price_goc">
+              <span>2.000.000 <span>đ</span></span>
+            </div>
+          </div>
+          <a href="./ProductDetail.html"
+            ><button class="btn_detail">Xem chi tiết</button></a
+          >
+        </div>
+      </div>
+
+      <div class="main_title">
+        <h2>
+          <a href="#">Tin tức</a>
+        </h2>
+      </div>
+
+      <div class="main_TinTuc">
+        <div class="TinTuc">
+          <a href="#">
+            <img src="../Image/Khuyến mãi - Copy.webp" alt="" />
+            <p class="TinTuc_name">
+              Giày Rep 1:1 là gì? Có nên chọn giày rep 1:1? Giày replica và
+              replica 1:1 và lừa đảo bán giày replica ?
+            </p>
+          </a>
+          <p class="TinTuc_desc">
+            Chào các bạn. Mình là Tú admin Tu Shoes và hôm nay mình sẽ giải
+            thích cho các bạ...
+          </p>
+          <div class="TinTuc_more">
+            <a href="#">
+              <span>xem thêm </span> <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="TinTuc">
+          <a href="#">
+            <img src="../Image/download - Copy.webp" alt="" />
+            <p class="TinTuc_name">
+              Giày Rep 1:1 là gì? Có nên chọn giày rep 1:1? Giày replica và
+              replica 1:1 và lừa đảo bán giày replica ?
+            </p>
+          </a>
+          <p class="TinTuc_desc">
+            Chào các bạn. Mình là Tú admin Tu Shoes và hôm nay mình sẽ giải
+            thích cho các bạ...
+          </p>
+          <div class="TinTuc_more">
+            <a href="#">
+              <span>xem thêm </span> <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="TinTuc">
+          <a href="#">
+            <img src="../Image/Logo_shop.png" alt="" />
+            <p class="TinTuc_name">
+              Giày Rep 1:1 là gì? Có nên chọn giày rep 1:1? Giày replica và
+              replica 1:1 và lừa đảo bán giày replica ?
+            </p>
+          </a>
+          <p class="TinTuc_desc">
+            Chào các bạn. Mình là Tú admin Tu Shoes và hôm nay mình sẽ giải
+            thích cho các bạ...
+          </p>
+          <div class="TinTuc_more">
+            <a href="#">
+              <span>xem thêm </span> <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="TinTuc">
+          <a href="#">
+            <img src="../Image/banner-be-trai_d4d5c86d3b7845e5876752376099a6af_master - Copy.jpg" alt="" />
+            <p class="TinTuc_name">
+              Giày Rep 1:1 là gì? Có nên chọn giày rep 1:1? Giày replica và
+              replica 1:1 và lừa đảo bán giày replica ?
+            </p>
+          </a>
+          <p class="TinTuc_desc">
+            Chào các bạn. Mình là Tú admin Tu Shoes và hôm nay mình sẽ giải
+            thích cho các bạ...
+          </p>
+          <div class="TinTuc_more">
+            <a href="#">
+              <span>xem thêm </span> <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_left">
+        <h3 class="footer_title">Liên hệ zalo: 0829392000</h3>
+        <ul>
+          <li>
+            <a href="">Địa chỉ: Mỹ Đình - Hà Nội</a>
+          </li>
+          <li>
+            <a href="">Điện thoại: 0829392000</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_center">
+        <h3 class="footer_title">Thông tin</h3>
+        <ul>
+          <li>
+            <i class="fas fa-chevron-right"></i>
+            <a href="">Trang chủ</a>
+          </li>
+          <li>
+            <i class="fas fa-chevron-right"></i>
+            <a href="">Giới thiệu</a>
+          </li>
+          <li>
+            <i class="fas fa-chevron-right"></i>
+            <a href="">Sản phẩm</a>
+          </li>
+          <li>
+            <i class="fas fa-chevron-right"></i>
+            <a href="">Khuyến mãi</a>
+          </li>
+          <li>
+            <i class="fas fa-chevron-right"></i>
+            <a href="">Tin tức</a>
+          </li>
+          <li>
+            <i class="fas fa-chevron-right"></i>
+            <a href="">Liên hệ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_right">
+        <h3 class="footer_title">hướng dẫn & Chính sách bảo hành</h3>
+        <ul>
+          <li>
+            <i class="fas fa-chevron-right"></i
+            ><a href="">Hướng dẫn mua hàng</a>
+          </li>
+          <li>
+            <i class="fas fa-chevron-right"></i><a href="">Thẻ thành viên</a>
+          </li>
+          <li>
+            <i class="fas fa-chevron-right"></i
+            ><a href="">Chính sách đổi trả và hoàn tiền</a>
+          </li>
+          <li>
+            <i class="fas fa-chevron-right"></i
+            ><a href="">Chính sách vận chuyển</a>
+          </li>
+          <li>
+            <i class="fas fa-chevron-right"></i
+            ><a href="">Chính sách bảo mật</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <div class="copyright_background">
+      <div class="copyright">
+        <div class="copyright_left">
+          <p>&copy; Bản quyền thuộc về <span>LTĐ</span></p>
+        </div>
+        <div class="copyright_right">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-google-plus-g"></i></a>
+          <a href=""><i class="fab fa-youtube"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sale_info">
+      <i class="fas fa-envelope"></i>
+      <span>Đăng ký thông tin nhận thông tin khuyến mại</span>
+    </div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+    integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="../Js/slick.js"></script>
+</html>
